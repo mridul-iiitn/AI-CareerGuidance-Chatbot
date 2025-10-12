@@ -238,39 +238,8 @@ export function HeroSectionOne() {
           </div>
         </div>
 
-        {/* ✅ Fixed: Added LinkedIn profile section */}
-        <div className="mt-20 max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8">Connect With Me</h2>
-          <div className="flex justify-center space-x-6">
-            <a
-              href="https://linkedin.com/in/ketanbajpai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              <Linkedin className="h-5 w-5" />
-              <span>LinkedIn Profile</span>
-            </a>
-            <a
-              href="https://github.com/ketaniiitn"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
-            >
-              <Github className="h-5 w-5" />
-              <span>GitHub</span>
-            </a>
-            <a
-              href="https://x.com/KetanIIITN?t=oxfQn1nKXytUcqOy_Q9LTw&s=09"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center space-x-2 px-6 py-3 bg-blue-400 text-white rounded-lg hover:bg-blue-500 transition-colors"
-            >
-              <Twitter className="h-5 w-5" />
-              <span>Twitter</span>
-            </a>
-          </div>
-        </div>
+       
+        
 
         {/* Preview Image */}
         <motion.div
@@ -295,7 +264,7 @@ export function HeroSectionOne() {
       {/* ✅ Fixed: Added copyright footer */}
       <footer className="w-full border-t border-gray-200 dark:border-gray-800 py-6 mt-20">
         <div className="max-w-6xl mx-auto px-4 text-center text-sm text-gray-600 dark:text-gray-400">
-          <p>&copy; 2025 CareerPath AI. All rights reserved. Built by Ketan_IIIT Nagpur.</p>
+          <p>&copy; 2025 CareerPath AI. All rights reserved.</p>
           <p className="mt-2">Empowering people to find their dream careers through AI-powered guidance.</p>
         </div>
       </footer>

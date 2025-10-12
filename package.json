@@ -1,0 +1,11 @@
+{
+  "name": "ai-careerguidance",
+  "version": "1.0.0",
+  "description": "A conversational chatbot system built using **Next.js** (frontend) and **Node.js** (Express.js) (backend), integrated with a **PostgreSQL** database via **Prisma ORM**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
