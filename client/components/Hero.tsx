@@ -2,7 +2,7 @@
 import { motion } from "framer-motion"
 import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
-import { Code, Briefcase, Lightbulb, Linkedin, Github, Twitter } from "lucide-react"
+import { Code, Briefcase, Lightbulb} from "lucide-react"
 import { LogIn } from "lucide-react"
 import Image from "next/image"
 
