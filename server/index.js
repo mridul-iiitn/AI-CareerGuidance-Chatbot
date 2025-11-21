@@ -3,7 +3,7 @@ const cors = require('cors');
 const fileRoute = require('./fileroute');
 const app = express();
 
-// CORS setup
+// CORS setup done
 app.use(cors({
   origin: "*",
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
