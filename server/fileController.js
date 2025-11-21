@@ -8,7 +8,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const { v4: uuidv4 } = require("uuid");
 require("dotenv").config();
 
-// ------------------ Global In-Memory Structures ------------------
+// ------------------ Global In-Memory Structures -------------------
 // Lightweight BM25 inverted index (rebuilt after ingestion or on first query)
 let BM25_INDEX = null; // { N, avgdl, docStats: { [id]: { tf: {term:count}, dl } }, df: { term: docFreq } }
 // Cache of profile boosting weights per conversation (optional minor optimization)
