@@ -4,7 +4,7 @@ import ChatLayout from "@/components/chat-component/chat-layout";
 import { Navbar } from "@/components/navbar";
 import { Toaster } from "@/components/ui/sonner";
 
-// Updated for Next.js 15: params is now a Promise in type definitions.
+// Updated for Next.js 15: params is now a Promise in type definition.
 export default async function ChatPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   return (
