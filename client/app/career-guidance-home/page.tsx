@@ -15,7 +15,7 @@ export default function CareerGuidanceHome() {
         </div>
 
         {/* --- Main Content Column --- */}
-        {/* ✅ FIX: Added 'bg-background' here to fill the column and remove the gap */}
+    
         <div className="flex flex-col bg-background">
           <Navbar>
             <div className="flex items-center gap-4">
